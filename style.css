@@ -1,0 +1,141 @@
+
+
+/* ...................................body..........................................*/
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* ...................................nav.......................................... */
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto 20px auto;
+    max-width: 960px;
+}
+
+nav a {
+    font-size: 34px;
+    font-weight: bold;
+    color: black;
+    font-family: "Noto Sans JP", sans-serif;
+    text-decoration: none;
+}
+
+/* Myprofileの部分 */
+.home {
+    border: 1px solid black;
+    padding: 0px 20px;
+    margin-left: 20px;
+}
+
+
+
+/* メニューの余白 */
+.menu > a {
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+
+ /*.................................... メイン写真...................................... */ 
+
+
+
+@media(min-width:768px){
+    .main-visual, .works {
+        max-width: 960px;
+        margin: 20px auto 20px auto;
+    }
+
+}
+
+
+/* ....................................About............................................ */
+
+h1{
+    font-size: 34px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* /////男性の画像切取り/////// */
+.circle{
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border: 3px solid #999;
+    padding: 3px;
+}
+
+.name{
+    font-size: 24px;
+    font-weight: bold; 
+}
+
+.about{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px auto 20px auto;
+    max-width: 960px;
+}
+
+li {
+    font-size: 18px;
+    font-family: "Noto Sans JP", sans-serif;
+    
+}
+
+div{
+    font: 0;
+}
+
+/* 自己紹介説明部分 */
+.content {
+    margin: 0 auto;
+    padding-left: 40px;
+}
+
+/*--------works---------- */
+
+
+.item {
+    padding: 10px;
+    /* width: calc(100%/3); */
+    
+}
+
+
+p {
+    font-size: 18px;
+    font-family: "Noto Sans JP", sans-serif;
+
+}
+
+/*...... フッター.......... */
+footer p {
+    text-align: center;
+    padding-bottom: 20px;
+    font-family:"Noto Sans JP", sans-serif ;
+} 
+
+/* 横幅が768pxまでの場合*/
+@media (min-width: 768px) {
+    .works{
+        display: flex;
+        
+    }
+}
